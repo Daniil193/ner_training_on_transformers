@@ -1,8 +1,8 @@
-# This is example of NER, based on your own dataset.
+## This is example of NER, based on your own dataset.
 
 ###### Project was run on Ubuntu 20.04 and Python3.8
 
-## How to setting
+### How to setting
 
  - Install driver for your gpu & [cuda toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_network)
  - Create virtual env
@@ -27,9 +27,9 @@ cd ner_training_on_transformers
 pip install -r requirements.txt
 ```
 
-## How to start
+### How to use
 
-### 1 - Prepare data
+#### 1 - Prepare data
 - You can find more information about example data of this repo [here](https://github.com/dialogue-evaluation/RuNNE)
 - You can find complete dataset for example data [here](https://huggingface.co/datasets/surdan/nerel_short)
 
@@ -61,7 +61,7 @@ python core/data_loader.py
 ```
 - After complete, data/2_model_input folder will be created
 
-### 2 - Fine-tuning model
+#### 2 - Fine-tuning model
  - You can find fine-tuned model on this data [here](https://huggingface.co/surdan/LaBSE_ner_nerel)
  - Set up config file for fine-tuning:
 ```
@@ -80,7 +80,7 @@ tr_params:  # init params for transformers.TrainingArguments
 python core/trainer.py
 ```
 - After complete, model will be saved to path, mentioned in path_to_dataset
-### 3 - Inference
+#### 3 - Inference
 - As mentioned earlier, you can find an example of using the model [here](https://huggingface.co/surdan/LaBSE_ner_nerel)
 - For testing fine-tuned model on test data, you need set up config file:
 ```
