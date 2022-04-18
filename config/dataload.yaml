@@ -1,0 +1,9 @@
+files:
+  p_train_tokens: data/1_raw/train_sentences.txt
+  p_train_labels: data/1_raw/train_labels.txt
+  p_valid_tokens: data/1_raw/valid_sentences.txt
+  p_valid_labels: data/1_raw/valid_labels.txt
+base_path: ${hydra:runtime.cwd}/
+params:
+  data_separator: "||"
+  folder_name_to_save: "data/2_model_input"

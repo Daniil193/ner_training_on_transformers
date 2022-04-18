@@ -1,0 +1,5 @@
+model_checkpoint: data/3_models/LaBSE_ner_nerel
+is_local_model: True # set False if you load model from hub
+base_path: ${hydra:runtime.cwd}/
+path_to_test_file: "data/1_raw/test_data.txt"
+path_to_save_data: "data/4_model_output/result.txt"

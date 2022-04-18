@@ -1,0 +1,13 @@
+base_path: ${hydra:runtime.cwd}/
+model_checkpoint: cointegrated/LaBSE-en-ru
+path_to_dataset: "data/2_model_input"
+
+tr_params:  # only params for transformers -> TrainingArguments
+  output_dir: "data/3_models/LaBSE_ner_nerel"
+  evaluation_strategy: "epoch"
+  save_strategy: "no"
+  learning_rate: 0.00002
+  num_train_epochs: 2
+  weight_decay: 0.01
+  push_to_hub: False
+  per_device_train_batch_size: 4
