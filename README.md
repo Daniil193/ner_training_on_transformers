@@ -1,4 +1,4 @@
-### This is example of NER, based on your own set of named entities.
+# This is example of NER, based on your own dataset.
 
 ###### Project was run on Ubuntu 20.04 and Python3.8
 
@@ -31,9 +31,10 @@ pip install -r requirements.txt
 
 ### 1 - Prepare data
 - You can find more information about example data of this repo [here](https://github.com/dialogue-evaluation/RuNNE)
-- You can find complete dataset for this data [here](https://huggingface.co/datasets/surdan/nerel_short)
+- You can find complete dataset for example data [here](https://huggingface.co/datasets/surdan/nerel_short)
 
-- For fine-tuning model we need the data splitted on train and valid part. For example, take data as mentioned in [data/1_raw](https://github.com/Daniil193/ner_training_on_transformers/tree/main/data/1_raw), where:
+- For fine-tuning model we need the data splitted on train and valid part. 
+- For example, take data as mentioned in [data/1_raw](https://github.com/Daniil193/ner_training_on_transformers/tree/main/data/1_raw), where:
 ```
 _sentences.txt - input raw data
 _labels.txt - labels for input raw data
