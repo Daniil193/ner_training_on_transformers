@@ -31,9 +31,8 @@ pip install -r requirements.txt
 
 ### Prepare data
 
-- For fine-tuning model we need data splitted on train and valid part, as mentioned in <data/1_raw> folder:
+- For fine-tuning model we need data splitted on train and valid part, as mentioned in <data/1_raw> folder, where:
 ```
-Where 
 _sentences.txt - input raw data
 _labels.txt - labels for input raw data
 ```
