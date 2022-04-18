@@ -1,4 +1,4 @@
-## This is example of NER, based on your own dataset with transformer library.
+## This is example of NER, based on your own dataset with transformers library.
 
 ###### Project was run on Ubuntu 20.04 and Python3.8
 
