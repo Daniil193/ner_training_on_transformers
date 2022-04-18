@@ -1,6 +1,4 @@
-## Fine-tutning of NER Extractor for your own data
-
-
+### This is example of NER, based on your own set of named entities.
 
 ###### Project was run on Ubuntu 20.04 and Python3.8
 
