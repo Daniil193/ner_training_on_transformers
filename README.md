@@ -31,10 +31,9 @@ pip install -r requirements.txt
 
 ### Prepare data
 
-- For fine-tuning model we need data splitted on train and valid part, as mentioned in <data/1_raw> folder
-- Where 
-       _sentences.txt - input data
-       _labels.txt - labels for input data
+- For fine-tuning model we need data splitted on train and valid part, as mentioned in <data/1_raw> folder:
 ```
-kedro viz         
+Where 
+_sentences.txt - input raw data
+_labels.txt - labels for input raw data
 ```
