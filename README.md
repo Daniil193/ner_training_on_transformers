@@ -82,7 +82,7 @@ python core/trainer.py
 - After complete, model will be saved to path, mentioned in path_to_dataset
 #### 3 - Inference
 - As mentioned earlier, you can find an example of using the model [here](https://huggingface.co/surdan/LaBSE_ner_nerel)
-- For testing fine-tuned model on test data, you need set up config file:
+- For testing fine-tuned model on test data, you need set up a config file:
 ```
 ~/config/infer.yaml
 
