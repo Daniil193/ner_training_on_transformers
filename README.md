@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### Prepare data
 
-- For fine-tuning model we need data splitted on train and valid part, as mentioned in <data/1_raw> folder, where:
+- For fine-tuning model we need the data splitted on train and valid part, as mentioned in [data/1_raw](https://github.com/Daniil193/ner_training_on_transformers/tree/main/data/1_raw) folder, where:
 ```
 _sentences.txt - input raw data
 _labels.txt - labels for input raw data
